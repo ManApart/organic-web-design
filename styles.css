@@ -1,0 +1,473 @@
+.footer {
+	text-align: center; 
+	vertical-align: middle; 
+	color: white;
+	background-color: var(--dark-background);
+	padding-top: 20px;
+	padding-bottom: 20px;
+  width: 100%;
+}
+
+.social-links a{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.social-links {
+  text-align: center; 
+	vertical-align: middle; 
+	color: white;
+	background-color: var(--dark-background);
+	padding-top: 20px;
+	padding-bottom: 20px;
+  width: 100%;
+}
+
+.image-social-media{
+	width: 20px;
+}
+
+.social-break{
+  height: 10px;
+}
+.game {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.game-title {
+    font-weight: 500;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
+
+.game-picture{
+  margin-bottom: 10px;
+  max-height: 600px;
+}
+
+.game-description {
+  margin-top: 10px;
+  text-align: left;
+  padding: 5px;
+  font-size: 1.2em;
+  line-height:1.5em;
+}
+
+.game-play {
+  color: black;
+  background-color: var(--light-background);
+  -moz-border-radius: 3px; 
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.game-play-disabled {
+  background-color: var(--dark-background);
+  color: rgb(94, 94, 94);
+  -moz-border-radius: 3px; 
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.game-source {
+  color: black;
+  background-color: var(--light-background);
+  -moz-border-radius: 3px; 
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.game-iterations {
+  margin-top: 20px;
+}
+
+.game-iteration {
+  text-align: left;
+  border-radius: 2px;
+  color: black;
+  margin-bottom: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 10px;
+  transition: all 1.0s cubic-bezier(.25,.8,.25,1);
+  overflow: hidden;
+  height: 20px;
+}
+
+.game-iteration:hover, .game-iteration:active {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  height: 150px;
+  background-color: var(--light-background);
+}
+
+.game-iteration:hover .game-iteration-name, .game-iteration:active .game-iteration-name {
+  color: black;
+}
+
+.game-iteration a {
+  text-decoration-line: none;
+}
+
+.game-iteration a:hover {
+  color: black;
+}
+
+.game-iterations-title {
+  color: white;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.game-iteration-name {
+  color: var(--light-background);
+  text-align: center;
+  font-size: 20px;
+}
+
+.game-iteration-description {
+  margin-top: 5px;
+  padding-bottom: 20px;
+}
+
+.game-instructions {
+  margin-top: 20px;
+  border-radius: 2px;
+  color: black;
+  margin-bottom: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 10px;
+  transition: all 1.0s cubic-bezier(.25,.8,.25,1);
+  overflow: hidden;
+  height: 18px;
+}
+
+.game-instructions:hover, .game-instructions:active{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  height: 70px;
+  background-color: var(--light-background);
+  color: var(--dark-background);
+}
+
+.game-instructions-title {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: white;
+}
+/* 
+.game-instructions-title:hover {
+  color: var(--dark-background);
+} */
+
+.game-instructions-description {
+  text-align: left;
+  margin-top: 5px;
+  padding-bottom: 20px;
+}
+
+
+@media (max-width: 600px) {
+  .game-iteration:hover, .game-iteration:active{
+    height: 200px;
+  }
+
+  .game-instructions:hover, .game-instructions:active{
+    height: 150px;
+  }
+
+  .game-picture{
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+section:first-child {
+	margin-top: 10px;
+}
+
+.side-image{	
+	width: 100%;
+	max-width: 300px;
+  margin-top: 50%;
+}
+
+.banner-image-wrapper{	
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.main-image{	
+	width: 100%;
+	max-width: 500px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 50px;
+}
+
+.slogan {
+	padding: 30px;
+  font-size: 1.2em;
+  line-height:1.5em;
+}
+
+#resume-section {
+  background-color: var(--dark-background);
+  padding-top: 40px;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.tag-words {
+  color: white; 
+  text-align: center;
+  padding-bottom: 40px; 
+}
+
+.tag-words span{
+  font-size: 2.0em;
+  font-weight: 500;
+  font-family: noticia text,serif;
+  width: 30%;
+  margin: auto;
+  display: inline-block;
+}
+
+#resume-holder {
+  display: block;
+}
+
+#resume-testimonial{
+	color: white; 
+	text-align: center; 
+	font-family: noticia text,serif;
+  display: inline-block;
+}
+
+#testimonial{
+  height: 200px; 
+  display: table-cell; 
+  vertical-align: middle;
+}
+
+#testimonial-quote {
+  font-size: 1.7em;
+}
+
+.testimonial a{
+	color: white;
+}
+
+#home-social{
+  background-color: var(--dark-background);
+  padding-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  .main-image {
+    padding-left: 0px;
+  }
+
+  .tag-words{
+    text-align: center;
+  }
+
+  .tag-words span{
+    font-size: 1.4em;
+    font-weight: 400;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  
+  #testimonial-quote {
+    font-size: 1.3em;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .mod-name {
+    font-size: 1.0em;
+  }
+
+  .mod-bar {
+    display: inline-block;
+    width: 90%;
+  }
+}
+
+#professional{
+  margin-bottom: 15px;
+}
+
+#personal{
+  margin-bottom: 15px;
+}
+
+#contributions{
+  /* width: 50%; */
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  font-size: 110%;
+}
+
+#contributions-last-year {
+  display: inline-block;
+}
+
+#contributions-this-year {
+  float: right;
+}
+  
+#contributions-img {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+}
+
+#click-hint{
+  text-align: center;
+  padding-bottom: 20px;
+  color: gray;
+}
+
+#project-list{
+  display: grid;
+  grid-template-columns: 750px 100px;
+}
+
+.project {
+    color: black;
+    background-color: var(--light-background);
+}
+.project a {
+  text-decoration-line: none;
+}
+
+.project a:hover {
+  color:black;
+}
+
+.project-title {
+    font-weight: 500;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
+
+.project-description {
+    padding: 5px;
+    font-size: 1.2em;
+    line-height:1.5em;
+}
+
+.project-language {
+    margin-left: 3px;
+    margin-right: 3px;
+    vertical-align: middle;
+    color: black;
+}
+
+.project-language:last-child {
+    margin-right: 20px;
+}
+
+@media (max-width: 600px) {
+  
+  div#project-list{
+    display: block;
+  }
+
+  .project {
+    height: fit-content;
+    width: inherit;
+    max-width: 500px;
+  }
+}
+:root {
+  --dark-background: #0c141f;
+  --main-background: #354C66;
+  --light-background: #77A2E0;
+  --highlight: #c9afda;
+}
+
+body {
+  background-color: var(--main-background);
+  font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Segoe UI Emoji","Segoe UI Symbol";
+  margin: 0px;
+  color: white;
+}
+
+h1{
+	font-family: noticia text,serif;
+	border-style: none none solid none;
+	border-width: 1px;
+	padding: 10px;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 50px;
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+
+h1 a {
+  text-decoration: none;
+}
+
+h2 {
+  margin-bottom: 0px;
+}
+
+h4 {
+	margin-bottom: 20px;
+}
+
+a, a:visited, a:hover, a:active{
+  color: inherit;
+}
+
+a:hover {
+  color: var(--highlight);
+}
+
+a:visited{
+	background-color: black;
+}
+
+section {
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+hr {
+	background-color: var(--dark-background);
+	height: 100px;
+	margin: 0px;
+  border-width: 0px;
+}
+
+.container {
+  width: 90%;
+  margin-left: 5%;
+}
