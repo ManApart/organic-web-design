@@ -1,0 +1,13 @@
+{
+  "name": "organic-design",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "browser-sync start -s -f ."
+  },
+  "private": true,
+  "dependencies": {
+    "browser-sync": "^2.26.14"
+  },
+  "devDependencies": {}
+}
